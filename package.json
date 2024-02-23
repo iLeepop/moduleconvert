@@ -1,0 +1,23 @@
+{
+  "name": "moduleconvert",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:rollup": "node scripts/build_rollup.js",
+    "build:esbuild": "node scripts/build_esbuild.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "esbuild": "^0.20.1",
+    "execa": "^8.0.1",
+    "react": "^18.2.0",
+    "rollup": "^4.12.0",
+    "rollup-plugin-minification": "^0.2.0"
+  }
+}
