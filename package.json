@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:rollup": "node scripts/build_rollup.js",
+    "build:rollup": " env VERSION=v4 node scripts/build_rollup.js",
     "build:esbuild": "node scripts/build_esbuild.js"
   },
   "keywords": [],
@@ -19,5 +19,10 @@
     "react": "^18.2.0",
     "rollup": "^4.12.0",
     "rollup-plugin-minification": "^0.2.0"
+  },
+  "dependencies": {
+    "mobx": "^6.12.0",
+    "mobx-react-lite": "^4.0.5",
+    "react-dom": "^18.2.0"
   }
 }
