@@ -74,6 +74,7 @@ uploadMeta(JSON.stringify(buildInfo(mapFile(pkgs)))).then(res => {
 })
 
 
+// upload zip
 // runParallel(mapFile(pkgs), build, version).then(() => {
 //   zip(version, `esm/${version}/`).then(() => {
 //     const formData = new FormData()
